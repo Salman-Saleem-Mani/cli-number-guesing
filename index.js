@@ -5,7 +5,7 @@ import inquirer from "inquirer";
 //2 user input for guessing number
 //3 compare the both
 const randomnumber = Math.floor(Math.random() * 10 + 1);
-console.log("WELCOME TO NUMBER GUESSING GAME");
+console.log("WELCOME TO NUMBER GUESSING GAME" );
 const answer = await inquirer.prompt([
     { name: "userguessednumber", type: "number", message: "PLZ GUESS A NUMBER BETWEEN 1-10" },
 ]);
